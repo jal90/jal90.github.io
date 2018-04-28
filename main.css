@@ -43,7 +43,7 @@ i {
 }
 
 .my-icons li {
-  background-color: #9CBBB5;
+  background-color: #BEC3C5;
   display: inline-block;
   font-size: 2em;
   margin: 20px;
@@ -53,9 +53,22 @@ i {
 
 .spaced {
   margin: 30px;
-  /* margin-left: 30px; */
 }
 
 .p-0 {
+  margin-top: 7%;
+}
+
+.p-0 .row {
   margin-bottom: 3%;
+}
+
+.thumb {
+  max-width: 700px;
+  padding-top: 1%;
+}
+
+.project-text {
+  max-width: 80%;
+  font-size: 0.8em;
 }
