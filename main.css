@@ -68,7 +68,8 @@ h3 {
 }
 
 .thumb {
-  max-width: 700px;
+  width: inherit;
+  /* max-width: 100%; */
   padding-top: 1%;
 }
 
