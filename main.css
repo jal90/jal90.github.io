@@ -37,6 +37,10 @@ i {
   padding: 10px;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 .my-icons {
   text-align: center;
   max-width: 70%;
@@ -71,4 +75,15 @@ i {
 .project-text {
   max-width: 80%;
   font-size: 0.8em;
+}
+
+.contact-style {
+  background-color: #636A9E;
+  padding-top: 27px;
+  border-radius: 10px;
+}
+
+#contact {
+  padding-top: 7%;
+  padding-bottom: 4%;
 }
