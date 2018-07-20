@@ -30,11 +30,7 @@ li {
 }
 
 i {
-  font-size: 500%;
-  /* margin: 45px; */
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-  padding: 10px;
+  padding-left: 5px;
 }
 
 h3 {
@@ -49,10 +45,9 @@ h3 {
 .my-icons li {
   background-color: #BEC3C5;
   display: inline-block;
-  font-size: 2em;
-  margin: 20px;
-  padding: 5px;
-  border-radius: 10px;
+  font-size: 1.5em;
+  margin: 7px;
+  padding: 5px 10px;
 }
 
 .spaced {
