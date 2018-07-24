@@ -83,3 +83,14 @@ h3 {
   padding-top: 7%;
   padding-bottom: 4%;
 }
+
+.other-projects {
+  background-color: #3F6A68;
+}
+
+.other {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center !important;
+  max-width: 80%;
+  margin: 0 auto;
+}
