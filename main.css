@@ -41,19 +41,6 @@ li {
   font-size: 1.5em;
   margin: 7px;
   padding: 5px 10px;
-  /* animation: cheese 3s linear infinite; */
-  /* animation-duration: 3s; */
-  /* animation-iteration-count: infinite; */
-  /* animation-timing-function: linear; */
-}
-
-@keyframes cheese {
-  25% {
-    transform: rotateX(125deg);
-  }
-  50% {
-    transform: rotateY(90deg);
-  }
 }
 
 .spaced {
@@ -105,12 +92,25 @@ li {
 }
 
 .other-projects {
-  background-color: #3F6A68;
+  background-color: #636A9E;
 }
 
 .other {
-  color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: 200;
   text-align: center !important;
   max-width: 80%;
   margin: 0 auto;
+}
+
+.other-links {
+  background-color: #BEC3C5;
+  font-size: 1em;
+  /* padding: 10px; */
+  margin: 20px auto;
+  text-align: center;
+}
+
+.projects-container {
+  margin: 0 5%;
 }
