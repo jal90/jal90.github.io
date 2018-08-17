@@ -130,10 +130,8 @@
         <h3 class="center-mobile">Guitar Tracker</h3>
         <p class="project-text"> This full-stack web application uses Rails and SQL on the server with JavaScript, jQuery and AJAX on the front-end. The site helps guitarists keep track of the configurations of their guitars. Bootstrap modals are used for forms, and Handlebars
           are used to dynamically render content on the page. When a user adds, deletes, or updates a guitar, their catalog immediately reflects the changes they made.</p>
-        <p class="project-text"> Using handlebars was not a requirement, but I love how it improves the user experience. Without it, a user would need to refresh the page or click on a button to see the changes they've made. At first I didn't want to use them because I barely
-          understood how they worked, but once I met the requirements for the project I wanted to add features that improved the user experience. This is also why I added a delete confirmation so users wouldn't accidentally delete a guitar. This was something
-          I thought would be simple but ended up being a challenge! I used data-ids on the html elements to target the right guitar for actions, since I was using modals I had to connect the modal with whatever guitar the user was trying to target. Although
-          I could have spent my time making the site more aesthetically pleasing, I'm glad I went for these challenges that required me to learn new technologies and techniques. </p>
+        <p class="project-text"> In order to enhance user experience, this website utilizes handlebars so users immeidately see changes they've made. Aiming for good UX is also why I added a delete confirmation so users wouldn't accidentally delete a guitar, which ended up being a challenge because of the way handlebars was interacting with the bootstrap modals. Although
+          I could have spent my time making the site more aesthetically pleasing, I'm glad I went for these challenges that required me to learn new technologies and techniques. The site does not check for valid emails - you may explore the site using dummy credentials.</p>
 
         <div class="row center-mobile">
           <div class="col-lg-4">
@@ -155,13 +153,10 @@
       </div>
       <div class="col-lg-6">
         <h3 class="center-mobile">MechanicMate</h3>
-        <p class="project-text"> I built this app as my capstone project for General Assembly. The API is built with Ruby on Rails, using PostgreSQL to interact with the SQL database. The front-end is built with Ember.js, a framework that allows single-page applications to route
+        <p class="project-text"> MechanicMate is an app built for my capstone project for General Assembly. The API is built with Ruby on Rails, using PostgreSQL to interact with the SQL database. The front-end is built with Ember.js, a framework that allows single-page applications to route
           to numerous URLs.</p>
-        <p class="project-text"> The development cycle was 1 week, which made this project a great challenge, as it was my first experience using a front-end framework. On top of that, we'd spent only a few days learning Ember in class. Continuing to learn about Ember while developing
-          this website was crucial to my success. Completing this project made me confident that I can learn new tech on the job, and learn the fundamentals of a framework in the span of a week. </p>
-        <p class="project-text"> As an extra challenge, I decided to ask my sister, a graphic designer, for help with styling the site. It's one thing to be able to write your own styling code, but I wanted to see if I could be given a design and then write code that puts that
-          design on the web. I know there are many development jobs where that's the workflow. She designed the splash page, and I used that design to inform aesthetic decisions for the rest of the site. Making the website match that design was more difficult
-          than I thought it would be, and it was a great learning lesson. The result of having a website with a unique, cohesive style was worth all of the extra effort! </p>
+        <p class="project-text"> Over the short 1 week development cycle I used a front end framework for the first time. The efficient completion of MechanicMate shows my ability to learn the fundamentals of a framework as well as additional technical challenges,  given limited time frames. </p>
+        <p class="project-text"> As an extra challenge I worked with a graphic designer to create a more aesthetic site. They designed the splash page which I recreated precisely with HTML and CSS. This design informed aesthetic decisions for the rest of the site, which gave me expereince working with a designer and bringing designs created in design software onto the web. The site does not check for valid emails - you may explore the site using dummy credentials.</p>
 
         <div class="row center-mobile">
           <div class="col-lg-4">
@@ -195,7 +190,7 @@
         <div class="col-lg-4">
           <h3 class="other" style="margin-bottom: 20px;">Tickity-Tackity-Toe</h3>
           <p class="project-text other">A simple take on the classic game with some fun jQuery added in. It communicates with a Rails API to record game status and history. I built the client with JavaScript, jQuery and AJAX. I used Bootstrap
-            to increase responsiveness of the page, and modals for forms. One feature I'm proud of implementing was allowing players to not only see previous games they played, but interact with them as well.
+            to increase responsiveness of the page, and modals for forms. Players can see previous games they played, and interact with them as well.
           </p>
           <div class="row">
             <div class="col-lg-4 other-links">
@@ -209,7 +204,7 @@
 
         <div class="col-lg-4">
           <h3 class="other" style="margin-bottom: 20px;">Guitar Tacker 2.0</h3>
-          <p class="project-text other">This is an in-progress, improved version of Guitar Tracker that I'm rebuilding from the ground up, using React on the front-end. The SQL database and Rails API has been changed to allow for guitar histories. Now, when users update their information (such as when they changed their strings) the old value isn't overwritten - it's saved in the guitar's history. What sounds like a simple change required a complete restructuring of the database, which is why I didn't do this for version 1, which had to be completed in under a week. As development is in its early stages, the site isn't live, but the github repos are public.
+          <p class="project-text other">This is an in-progress, improved version of Guitar Tracker using React on the front-end. The SQL database and Rails API have been changed to allow for guitar histories: when users update their information (such as when they changed their strings) the old value isn't overwritten - it's saved in the guitar's history. This required a complete restructuring of the database from version 1. As development is in its early stages, the site isn't live, but the github repos are public.
           </p>
           <div class="row">
             <div class="col-lg-4 other-links">
@@ -223,7 +218,7 @@
 
         <div class="col-lg-4">
           <h3 class="other" style="margin-bottom: 20px;">The Glades Website</h3>
-          <p class="project-text other">Another in-progress app, I've focused development thus far on connecting to 3rd-party APIs. I built a proxy server in Express so that the client could make calls to the Dark Sky API for weather information. Coming from the Rails environment, Express is like the wild west, and it's been fun learning about Express functions, middleware, and error handling. I'm contuing to learn Express as I develop this site, and plan to fully integrate authentication into the Express server. A co-developer and I are now working on displaying tide information on a chart with Highcharts. The Highcharts API is incredibly complex, and integrating it into our React frontend adds another layer of complexity. But after one session of peer-programming we got the chart to render our data on the page - now we want to clean up the look for a sleeker, more simplified view.
+          <p class="project-text other">Another in-progress app, I've focused development thus far on connecting to 3rd-party APIs. I built a proxy server in Express so that the client could make calls to the Dark Sky API for weather information. This project allows me to diversify my portfolio, expanded beyong Rails only environments to utilize Express functions, middleware, and error handling. This site will fully integrate authentication into the Express server. </p><p>A co-developer and I are now working on displaying tide information on a chart with Highcharts. Integrating the Highcharts API into our React frontend is a complex task, but one we've nearly completed. Currently, the chart renders our data on the page - our intent is to clean up the look for a sleeker, more simplified view.
           </p>
           <div class="row">
             <div class="col-lg-4 other-links">
